@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>booking</title>
+<style>
+body{
+background-color:#EAEDED;
+}
+input{
+	margin:10px;
+}
+input[type=text],[type=number]{
+	mrgin:40px;
+	width:500px;
+	height:50px;
+	padding:0 20px;
+	font-size:30px;	
+	cursor-pointer:15px;
+	border-radius:8px;
+}
+
+input[type=submit]{
+	text-size:40px;
+	margin:20px;
+	width:400px;
+	height:40px;
+	font-size:20px;
+	color:white;
+	background-color:#2B8EF9;
+	cursor-pointer:20px;
+	border-radius:8px;
+}
+select{
+text-size:80px;
+font-size:20px;
+width:400px;
+height:40px;
+cursor-pointer:15px;
+border-radius:8px;
+}
+input[type=radio]{
+text-size:300px;
+font-size:100px;
+width:30px;
+height:25px;
+}
+</style>
+</head>
+<body>
+<div align="center">
+<b><i><h2>Pessenger Details</h2></i></b>
+<hr color="black"><br><br><br><br>
+<form action="book2" method="post">
+<input type="text" name="name" placeholder="Name"  
+
+required><br>
+<input type="number" name="page" placeholder="Age Between 5 to 125" 
+
+required><br>
+
+<select name="birth">
+<option value=-1>Select Birth</option>
+<option value="NP">No Preference</option>
+<option value="L">Lower</option>
+<option value="U">Upper</option>
+<option value="SL">Side-Lower</option>
+<option value="SU">Side-Upper</option>
+</select><br>
+<br>
+<input type="radio" checked value="M" name="gender">Male&nbsp;
+<input type="radio" value="F" name="gender">FeMale&nbsp;
+<input type="radio" value="T" name="gender">Transgender
+<br><br>
+<input type="submit" value="Add">
+</form>
+</div>
+</body>
+</html>

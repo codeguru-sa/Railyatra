@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>add trains</title>
+<style>
+body{
+background-color:#EAEDED;
+}
+table{
+ width:200px;
+font-size:20px;
+cursor-pointer:15px;
+	border-radius:8px;
+background-color:#DD3737
+}
+input{
+	margin:10px;
+}
+input[type=text],[type=number]{
+	mrgin:40px;
+	width:500px;
+	height:50px;
+	padding:0 20px;
+	font-size:30px;	
+	cursor-pointer:15px;
+	border-radius:8px;
+}
+a{
+text-decoration:none;
+color:white;
+}
+input[type=submit]{
+	text-size:40px;
+	margin:20px;
+	width:400px;
+	height:40px;
+	font-size:20px;
+	color:white;
+	background-color:#54CE88;
+	cursor-pointer:20px;
+	border-radius:8px;
+}
+</style>
+</head>
+<body vlink="white" alink="white">
+<form action="add" method="post">
+<h1 align="center"><b><i>Add Train</i></b></h1>
+<hr>
+<table align="right" bgcolor="#6EACED	 " frame="box"><thead><th>
+<a href="logoutservlet">Logout</a></th></thead></table>
+
+<table bgcolor="#6EACED"  frame="box"><thead><th>
+<a href="adminhome.html">Home</a></th></thead></table>
+<div align="center">
+<input type="number" name="tno" placeholder="Train Number" 
+
+required>
+<br>
+<input type="text" name="tname" placeholder="Train Name"
+required><br>
+<input type="text" name="fstation" placeholder="From-Station" 
+
+required><br>
+<input type="text" name="tstation" placeholder="To-
+
+Station"required><br>
+<input type="number" name="avilable" placeholder="Avilable seats" 
+
+required><br>
+<input type="number" name="price" placeholder="Ammont of One seat" 
+
+required><br>
+
+<input type="submit" value="Add">&nbsp;<br>
+</div>
+</form>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Destination</title>
+<style>
+body{
+background-color:#EAEDED;
+}
+table{
+ width:200px;
+ font-size:20px;
+cursor-pointer:15px;
+	border-radius:8px;
+background-color:#DD3737
+}
+	#tableback{ 
+width:200px; 
+font-size:15px; 
+border-radius:8px; 
+cursor-pointer:15px;
+background-color:#48C9B0;
+ }
+input{
+	margin:10px;
+}
+input[type=text]{
+	mrgin:40px;
+	width:500px;
+	height:50px;
+	padding:0 20px;
+	font-size:30px;	
+	cursor-pointer:15px;
+	border-radius:8px;
+}
+a{
+text-decoration:none;
+color:white;
+}
+input[type=submit]{
+	text-size:40px;
+	margin:20px;
+	width:400px;
+	height:40px;
+	font-size:20px;
+	color:white;
+	background-color:#54CE88;
+	cursor-pointer:20px;
+	border-radius:8px;
+}
+</style>
+</head>
+<body>
+<div align="center">
+<form action="usview" method="post">
+<font size="5"><b><i><h2>View Train</h2></b></i></font>
+<hr color="black">
+<table id="tableback" align="left" frame="box">
+<thead><th><a href="userhome.html">Home</a></th></thead>
+</table>
+
+<table align="right" frame="box">
+<thead><th><a href="logoutservlet">Logout</a></th></thead>
+</table>
+<br><br><br><br><br>
+
+<input type="text" name="fst" required placeholder="From-Station">
+&nbsp;&nbsp;
+<input type="text" name="tst" required placeholder="To-
+
+Station"><br>
+<input type="submit" value="ViewTrain"><br><br>
+</form>
+</div>
+</body>
+</html>

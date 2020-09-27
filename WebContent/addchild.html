@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Child</title>
+<style>
+input[type=text]{
+mrgin:40px;
+	width:500px;
+	height:50px;
+	padding:0 20px;
+	font-size:30px;	
+	cursor-pointer:15px;
+	border-radius:8px;
+}
+select{
+mrgin:40px;
+	width:500px;
+	height:50px;
+	padding:0 20px;
+	font-size:30px;	
+	cursor-pointer:15px;
+	border-radius:8px;
+}
+input[type=radio]{
+text-size:300px;
+font-size:100px;
+width:30px;
+height:25px;
+}
+
+body{
+background-color:#EAEDED;
+}
+input{
+	margin:10px;
+}
+input[type=submit]{
+	text-size:40px;
+	margin:20px;
+	width:400px;
+	height:40px;
+	font-size:20px;
+	color:white;
+	background-color:#2B8EF9;
+	cursor-pointer:20px;
+	border-radius:8px;
+}
+</style>
+</head>
+<body>
+<div align="center">
+<h2><b><i>Child Details</i></b></h2><hr color="black">
+<br><br><br><br><br>
+<form action="child" method="post">
+<input type="text" name="cname" placeholder="Name" required>
+<br>
+<select name="cage">
+<option value=-1>Age Between 1 to 5</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+</select>
+<br><br>
+<input type="radio" checked value="male" name="cgender">Male&nbsp;
+<input type="radio" value="female" name="cgender">FeMale&nbsp;
+<input type="radio" value="others" name="cgender">Others
+<br><br>
+
+<input type="submit" value="Add">
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>login</title>
+<style>
+body{
+background-color:#EAEDED;
+}
+table{
+ width:200px;
+font-size:20px;
+cursor-pointer:15px;
+	border-radius:8px;
+background-color:#0DE6A8;
+}
+
+input{
+	margin:10px;
+}
+input[type=text],[type=password]{
+	mrgin:40px;
+	width:500px;
+	height:50px;
+	padding:0 20px;
+	font-size:30px;	
+	cursor-pointer:15px;
+	border-radius:8px;
+}
+a{
+text-decoration:none;
+color:white;
+}
+#forgot{
+text-decoration:none;
+color:black;
+}
+input[type=submit]{
+	text-size:40px;
+	margin:20px;
+	width:400px;
+	height:40px;
+	font-size:20px;
+	color:white;
+	background-color:#3DB0E2;
+	cursor-pointer:20px;
+	border-radius:8px;
+}
+
+</style>
+</head>
+<body>
+<div align="center">
+<form action="userlogin" method="post">
+<font size="5"><b><i><h2>User Login</h2></i></b></font>
+<hr color="black">
+<br><br><br><br><br>
+<input type="text" name="uname" required 
+
+placeholder="UserName"><br>
+<input type="password" name="pword" required 
+
+placeholder="Password"><br>
+<input type="submit" value="Login">
+<h3>Or</h3>
+<table frame="box"><thead><th><a 
+
+href="register1.html">Create New Account</a></th></thead></table>
+<font size="5"><h4><b><i><a href="forgotpassword.html" 
+
+id="forgot">Forgotten Password?</a></i></b></h4></font>
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>login</title>
+<style>
+body{
+background-color:#EAEDED;
+}
+#table{ width:200px;
+ font-size:15px; 
+cursor-pointer:15px;
+ border-radius:8px; 
+border-radius:8px;
+background-color:#DD3737; }
+	#tableback{ width:200px; 
+font-size:15px; 
+border-radius:8px; 
+cursor-pointer:15px;
+border-radius:8px; 
+background-color:#16F1B3; }
+
+input{
+	margin:10px;
+}
+input[type=text],[type=password]{
+	mrgin:40px;
+	width:500px;
+	height:50px;
+	padding:0 20px;
+	font-size:30px;	
+	cursor-pointer:15px;
+	border-radius:8px;
+}
+a{
+text-decoration:none;
+color:white;
+}
+input[type=submit]{
+	text-size:40px;
+	margin:20px;
+	width:400px;
+	height:40px;
+	font-size:20px;
+	color:white;
+	background-color:#3DB0E2;
+	cursor-pointer:20px;
+	border-radius:8px;
+}
+
+</style>
+</head>
+<body>
+<div align="center">
+<form action="deleteaccount" method="post">
+<font size="5"><b><i><h2>Delete Account</h2></i></b></font>
+<hr color="black">
+<table id="table" align="right"><thead><th><a href="logout">Logout</a></th></thead></table>
+<table id="tableback"align="left"><thead><th><a href="userhome.html">Home</a></th></thead></table>
+<br><br><br><br><br>
+<input type="text" name="uname" required 
+
+placeholder="UserName"><br>
+<input type="password" name="pword" required 
+
+placeholder="Password"><br>
+<input type="submit" value="Delete Account">
+
+</form>
+</div>
+</body>
+</html>
